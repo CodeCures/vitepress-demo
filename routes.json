@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Composition API",
+        "slug": "composition-api",
+        "content": "When $a \\ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are\n $$ x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} $$",
+        "next": {
+            "title": "Script setup",
+            "link": "/script-setup"
+        },
+        "prev": null
+    },
+    {
+        "title": "Script setup",
+        "slug": "script-setup",
+        "content": "```js{1,4,6-8}\n        export default { // Highlighted\n          data () {\n            return {\n              msg: `Highlighted!\n              This line isn't highlighted,\n              but this and the next 2 are.`,\n              motd: 'VitePress is awesome',\n              lorem: 'ipsum'\n            }\n          }\n        }\n        ```",
+        "next": null,
+        "prev": {
+            "title": "Composition API",
+            "link": "/composition-api"
+        }
+    }
+]
